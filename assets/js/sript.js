@@ -8,7 +8,6 @@ let buttonC = $("#c");
 let buttonD = $("#d");
 const restartBtn = $("#restartBtn")
 const restartBtnL = $("#restartBtnL")
-
 let submitBtn = $("#submitScore")
 
 //Global variables
@@ -208,12 +207,8 @@ restartBtn.on("click", function(){
     cardStarter.attr("class", "card-starter");  
 })
 
+//event listiner for the submitbtn
 submitBtn.on("click", function(){
     submitScore();
 })
 
-//function to show score on leader board 
-// function leaderboardHandler() {
-    // let inputEl = 
-    
-// }
