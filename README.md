@@ -32,7 +32,7 @@ THEN I can save my initials and my score
 
 
 ## Deployed Site : https://brandonfordd.github.io/javascript_quiz/
-```
+
 
 screenshot: 
 ![alt text](https://github.com/brandonfordd/javascript_quiz/blob/main/images/javaquiz_screenshot.png?raw=true)
