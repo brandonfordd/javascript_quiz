@@ -1,14 +1,13 @@
 :root {
-  --primary-color: #302AE6;
-  --secondary-color: #536390;
-  --font-color: #424242;
-  --bg-color: rgb(139, 139, 139);
+  --primary-color: #635efb;
+  --secondary-color: #002faf;
+  --font-color: #131313;
+  --bg-color: rgb(190, 190, 190);
   --secondary-bg-color: rgb(238, 237, 237);
   --heading-color: #292922;
   --box-shadow:  rgba(0, 0, 0, 0.15) 2px 4px 10px 2px;
   --secondary-box-shadow: none;
-  --text-shadow: 0 0 15px rgb(169, 185, 240);
-  --password-color: #cc0000;
+  --text-shadow: 0 0 10px rgba(27, 10, 255, 0.411);
 }
 
 [data-theme="dark"] {
@@ -21,14 +20,12 @@
   --box-shadow: 0 0 8px black;
   --text-shadow: 0 1px 10px rgb(136, 86, 255);
   --secondary-box-shadow: 0 0 15px rgba(81, 32, 216, 0.911);
-  --password-color: rgba(196, 180, 240, 0.911);
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  
 }
 
 html,
@@ -44,6 +41,36 @@ body {
   background-color: var(--bg-color);
 }
 
+.btn {
+  border: none;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+  color: white;
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 10px 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--primary-color);
+}
+
+.answerBtn {
+  border: none;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 5px 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--primary-color);
+}
+
 /* Card elements */
 
 .container {
@@ -51,7 +78,16 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
+}
+.card-header h1 {
+  color: var(--secondary-color);
+  text-shadow: var(--text-shadow);
+}
 .card-starter-hidden {
   visibility: hidden;
   position: absolute;
@@ -138,6 +174,11 @@ body {
   box-shadow: var(--box-shadow);
 }
 
+
+.leaderboardList {
+  margin-right:10%;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -145,3 +186,4 @@ footer {
   font-size: 15px;
   color: var(--font-color);
 }
+

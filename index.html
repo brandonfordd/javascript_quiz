@@ -25,17 +25,16 @@
                 <div id="card-body">
 
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eligendi facere ipsum, repellendus suscipit quod repudiandae, animi quibusdam qui ullam officiis ea eos. Recusandae dolore similique amet obcaecati iure blanditiis.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo deserunt explicabo neque error, in cum minima suscipit labore quaerat illo maxime esse! In voluptatem debitis aut explicabo libero maxime quidem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea accusantium nobis dolorum exercitationem tempora? Velit id sapiente laborum eos laudantium dolores molestiae, voluptatum nihil alias harum quidem, dolor magni nam.
+                    Welcome to my Javascript code Quiz! During this quiz your abilities on Javascript basic knowledge will be tested in a timed manner (60 seconds). If incorrect answer, an alert will come up displaying incorrect answer and question will be skipped, 10 seconds will be deducted from set time, and next question will appear. If correct answer, an alert displaying correct answer will come up, 1 score point will be added, and next question will appear. After all questions have been answer will only one attempt, a submit screen will come up for you name to be saved with your score. You can restart the quiz from there to better you score! Score will show in leaderboards section until page reload, once reload happens all scores will be reset.
                     </p>
 
                 </div>
 
                 <div class="card-footer">
 
-                    <button id="startBtn">Start!</button>
+                    <button id="startBtn" class="btn">Start!</button>
 
-                    <button id="leaderboardBtn">Leaderboard!</button>
+                    <button id="leaderboardBtn" class="btn">Leaderboard!</button>
 
                 </div>
 
@@ -49,10 +48,10 @@
                         <h1>This is the Test Question!</h1>
                     </div>
 
-                    <button id="a" onclick="checkAnswer('a')">A</button>
-                    <button id="b" onclick="checkAnswer('b')">B</button>
-                    <button id="c" onclick="checkAnswer('c')">C</button>
-                    <button id="d" onclick="checkAnswer('d')">D</button>
+                    <button class="answerBtn" id="a" onclick="checkAnswer('a')">A</button>
+                    <button class="answerBtn" id="b" onclick="checkAnswer('b')">B</button>
+                    <button class="answerBtn" id="c" onclick="checkAnswer('c')">C</button>
+                    <button class="answerBtn" id="d" onclick="checkAnswer('d')">D</button>
                     
                 </div>
 
@@ -70,31 +69,44 @@
 
                     </div>
 
-                    
+                    <div>
+                        <input type="text" size = "20" placeholder="Submit score to Leaderboard!" name="initials" id="initials"/>
+                        <input type="submit" value="Submit Name!" id="submitScore">
+                    </div>
 
                 </div>
 
                 <div class="card-footer">
 
-                    <button id="restartBtn">restart!</button>
+                    <button id="restartBtn"  class="btn">restart!</button>
 
                 </div>
 
             </section>
 
-            <section id="cardLeaderbaord" class="card-leaderboard-hidden">
-                <h1>Leaderboards!</h1>
+            <section id="cardLeaderboard" class="card-leaderboard-hidden">
+                <div class="leaderboards">
+
+                    <h1>Leaderboards!</h1>  
+
+                    <ul id="leaderboardList" class="leaderboardList">
+
+                    </ul>
+
+                </div>
+                
 
                 <ul id="leaderboardList">
 
                 </ul>
                 
                 <div>
-                    <button id="restartBtnL">Back to start</button>
+                    <button id="restartBtnL"  class="btn">Back to start</button>
                 </div>
             </section>
             
         </main>
+        <footer> Site created with 💜 by Brandon Ford </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="assets/js/sript.js"></script>
     </body>
