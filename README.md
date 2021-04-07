@@ -3,7 +3,9 @@
 ## The Task
 
 ```
-This week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+This week’s homework invites you to build a timed coding quiz with multiple-choice questions. 
+This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write.
+It will have a clean, polished, and responsive user interface. 
 ```
 
 ## User Story
@@ -31,8 +33,17 @@ THEN I can save my initials and my score
 ```
 
 
-## Deployed Site : https://brandonfordd.github.io/javascript_quiz/
+## Deployed Site 
+```
+https://brandonfordd.github.io/javascript_quiz/
+```
 
-
-screenshot: 
+## Screenshots: 
+1.
 ![alt text](https://github.com/brandonfordd/javascript_quiz/blob/main/images/javaquiz_screenshot.png?raw=true)
+
+2.
+![alt text](https://github.com/brandonfordd/javascript_quiz/blob/main/images/screenshot-2_javaquiz.png?raw=true)
+
+3.
+![alt text](https://github.com/brandonfordd/javascript_quiz/blob/main/images/screenshot-3_javaquiz.png?raw=true)
