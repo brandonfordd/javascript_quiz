@@ -1,12 +1,18 @@
-# javascript_quiz
+# Web APIs: Code Quiz
+
+## Technologies Used
+```
+HTML5
+CSS3
+Javascript
+Boottrap
+```
 
 ## The Task
 
-```
 This week’s homework invites you to build a timed coding quiz with multiple-choice questions. 
 This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write.
 It will have a clean, polished, and responsive user interface. 
-```
 
 ## User Story
 
@@ -34,9 +40,9 @@ THEN I can save my initials and my score
 
 
 ## Deployed Site 
-```
+
 https://brandonfordd.github.io/javascript_quiz/
-```
+
 
 ## Screenshots: 
 1.
